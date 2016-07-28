@@ -1,0 +1,40 @@
+{
+  "name": "h5_qa",
+  "version": "0.0.1",
+  "description": "HTML5 Pages for Question/Answer app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --no-info",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [
+    "html5"
+  ],
+  "author": "vika",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "vue": "^1.0.26",
+    "vue-resource": "^0.9.3",
+    "vue-router": "^0.7.13",
+    "vux": "^0.1.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-runtime": "^6.9.2",
+    "cross-env": "^1.0.8",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "vue-hot-reload-api": "^1.3.3",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.3",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
