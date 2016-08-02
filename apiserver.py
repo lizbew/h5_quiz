@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding: utf-8
 import os.path
 import json
 import copy
@@ -13,10 +14,10 @@ def index():
 
 all_quiz_list = [
     {
-        'q': 'quest one',
+        'q': u'夏日在烈日下工作或运动量过大出汗多时，预防中暑应多喝？',
         'options': {
-            'A': 'op1',
-            'B': 'op2',
+            'A': u'盐开水',
+            'B': u'白开水',
         },
         'a': 'A',
     },
